@@ -34,8 +34,15 @@ public class Song{
     private String musicDirector;
 
     public Song(){}
-    
 
+    public Song(int songId,String songName,String lyricist,String singer,String musicDirector){
+        this.songId=songId;
+        this.songName=songName;
+        this.singer=singer;
+        this.musicDirector=musicDirector;
+        this.lyricist=lyricist;
+    }
+     
     public void setSongId(int songId){
         this.songId=songId;
     }
